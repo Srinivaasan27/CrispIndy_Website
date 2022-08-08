@@ -1,14 +1,18 @@
 #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+html {
+    background-color: white;
 }
 
 a:link, a:visited {
-    background-color: white;
+    background-color: #ffa500;
     color: black;
-    border: 2px solid green;
+    border: 2px solid black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -17,12 +21,16 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .center {
     text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #ff7f27;
+    width: 100%
 }
 
 a.center {
